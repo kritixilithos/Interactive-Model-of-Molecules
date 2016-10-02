@@ -39,10 +39,12 @@ void draw() {
    rotateY(currRot[1]);
    rotateZ(currRot[2]);
    
+   /* AXES
    stroke(255,0,0);
    line(-width,0,0,width,0,0);
    line(0,-width,0,0,width,0);
    line(0,0,-width,0,0,width);
+   */
    
    carbon.display();
    pushMatrix();
