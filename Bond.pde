@@ -1,5 +1,5 @@
 class Bond {
-  int x,y,z;
+  int x,y,z,x1,y1,z1;
   int sides = 30;
   Bond(int _x, int _y, int _z) {
     x=_x;
