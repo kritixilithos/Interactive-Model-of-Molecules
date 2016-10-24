@@ -1,9 +1,9 @@
 //methane- by Kritixi Lithos
 
-Atom carbon;
+Atom carbon; //TEMPLATE
 Atom[]Hs = new Atom[4];
 
-float[]currRot = {0,0,0};
+float[]currRot = {0,0,0}; //TEMPLATE
 
 void methane() {
   carbon.display();
@@ -43,14 +43,14 @@ void methane() {
 }
 
 void setup() {
-  size(800, 800, P3D);
-  carbon = new Atom(25);
+  size(800, 800, P3D);   //TEMPLATE
+  carbon = new Atom(25); //TEMPLATE
   for(int i = 0; i < Hs.length; i++) {
     Hs[i] = new Atom(255);
   }
 }
 
-void draw() {
+void draw() { //TEMPLATE
   background(230,230,200);
   directionalLight(146,146,146,0,0,-1);
   ambientLight(122, 122, 122);

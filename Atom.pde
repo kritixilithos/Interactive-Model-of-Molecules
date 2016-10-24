@@ -1,4 +1,4 @@
-class Atom {
+class Atom { //TEMPLATE
   color atom;
   
   Atom(int _atom) {
